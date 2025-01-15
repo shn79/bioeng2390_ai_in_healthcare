@@ -1,4 +1,4 @@
-# Demonstraion of scripts and their usage 
+# Demonstration of scripts and their usage 
 
 import pandas as pd
 import random
