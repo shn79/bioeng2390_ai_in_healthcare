@@ -9,8 +9,9 @@ Welcome to BIOENG 2390: AI in Healthcare. This course provides a comprehensive i
 
 ### Lecture Topics
 - Basic Introduction to Programming in Python, R, and MATLAB
-- Setting Up Development Environments
+- Setting Up Development Environments on Google Colab, VS Code, Jupyter Notebook, PositCloud (for R) and MATLAB Online
 - Using Integrated Development Environments (IDEs)
+- Basics of Source Control using Git and GitHub
 
 ### Folder Contents
 
