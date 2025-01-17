@@ -25,3 +25,4 @@ python generate_csv.py myFile.csv
 #### myFirstNotebook.py
 This Jupyter Notebook generates a CSV file with random data for 20 students, including their age, height, weight, and gender. The data is saved to 'myFile.csv'.
 
+
