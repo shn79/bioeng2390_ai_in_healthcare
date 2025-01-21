@@ -44,6 +44,8 @@ s_of_t_subset_CLEAN$TwoSDRule <- as.factor(ifelse(s_of_t_subset_CLEAN$normalized
 
 table(s_of_t_subset_CLEAN$GT, s_of_t_subset_CLEAN$TwoSDRule)
 
+write.csv(s_of_t_subset_CLEAN, "s_of_t_subset_CLEAN_with2SDrule.csv",  row.names = F)
+
 
 # Lets change the 2 SD rule to a 1 SD rule
 
@@ -58,7 +60,9 @@ s_of_t_subset_CLEAN_out_of_control <- s_of_t_subset_CLEAN_out_of_control[s_of_t_
 points(s_of_t_subset_CLEAN_out_of_control$time,s_of_t_subset_CLEAN_out_of_control$normalizedValue, col = "red", pch = 8)
 
 # Lets put the 2 SD rule signal into the main data frame
-s_of_t_subset_CLEAN$TwoSDRule <- as.factor(ifelse(s_of_t_subset_CLEAN$normalizedValue > 1 |
+s_of_t_subset_CLEAN$OneSDRule <- as.factor(ifelse(s_of_t_subset_CLEAN$normalizedValue > 1 |
                                                     s_of_t_subset_CLEAN$normalizedValue < -1, 'OutOfControl', 'InControl'))
 
-table(s_of_t_subset_CLEAN$GT, s_of_t_subset_CLEAN$TwoSDRule)
+table(s_of_t_subset_CLEAN$GT, s_of_t_subset_CLEAN$OneSDRule)
+
+
