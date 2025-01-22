@@ -5,6 +5,7 @@
 ## Course Overview
 Welcome to BIOENG 2390: AI in Healthcare. This course provides a comprehensive introduction to programming in Python, R, and MATLAB, as well as setting up development environments and using Integrated Development Environments (IDEs).
 
+
 ## Week00-01: Introduction to Programming and Environment Setup
 
 ### Lecture Topics
@@ -74,3 +75,8 @@ This R script performs analysis and visualization of EEG data, focusing on seizu
    - generate_csv.py (or myFirstNotebook.ipynb)
    - MATtoCSV.m
    - loadData.R
+
+
+
+## Week02: Developing statistical models from EEG data
+
